@@ -5,7 +5,7 @@ def valid_move?(board, index)
     "#{board[2]}" == " "
     false
   else
-    "#{board}" == "  "
+    "#{board}" 
     true
   end
 end
