@@ -3,5 +3,7 @@ def valid_move?(board, index)
     true
   elsif "#{board[index]}" == "X"
     true
+  elsif "#{board[index]}" == "X"
+    false
   end
 end
