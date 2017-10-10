@@ -6,5 +6,6 @@ def valid_move?(board, index)
     false
   else
     "#{board}" == "  "
+    true
   end
 end
