@@ -3,6 +3,6 @@ def valid_move?(board, index)
     true
   elsif "#{board[index]}" == "X"
     true
-  elsif "#{index}" == "X"
+  elsif index.between?[0, 8]
   end
 end
