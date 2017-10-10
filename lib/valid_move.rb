@@ -3,6 +3,6 @@ def valid_move?(board, index)
     true
   elsif "#{board[index]}" == "X"
     true
-   
+
   end
 end
