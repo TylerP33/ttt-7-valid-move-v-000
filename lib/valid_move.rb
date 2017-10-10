@@ -4,8 +4,5 @@ def valid_move?(board, index)
   elsif
     "#{board[2]}" == " "
     false
-  else
-    "#{board[2]""
-    true
   end
 end
