@@ -3,8 +3,5 @@ def valid_move?(board, index)
     true
   elsif "#{board[index]}" == "X"
     true
-  else index.between = "X" || "O"
-    false
-
   end
 end
