@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  if "#{board}" == "X"
+  if "#{board[2]}" == "X"
     true
   end
 end
